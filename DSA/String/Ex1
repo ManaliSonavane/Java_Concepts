@@ -1,0 +1,16 @@
+//Reversing a String 
+//Method : reverse traversal
+import java.util.*;
+import java.lang.*;
+
+public class Ex1 {
+    public static void main(String args[]){
+       String s="Manali Sonavane";
+       String rev="";
+
+    for(int i=a.length()-1;i>=0;i--){
+      rev= rev+ s.charAt(i);
+    }
+    System.out.print(rev);  
+  }
+}
