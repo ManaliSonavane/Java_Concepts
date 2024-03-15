@@ -12,6 +12,8 @@ class Ex3 {
            sb.append(ch[i]);
          }
        }
+        s= sb.toString();
+        System.out.print(s); 
         System.out.print(sb);  
     }
 }
