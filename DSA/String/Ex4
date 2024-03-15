@@ -13,7 +13,7 @@ class Ex3 {
          }
        }
         s= sb.toString();
-        System.out.print(s); 
+        System.out.println(s); 
         System.out.print(sb);  
     }
 }
