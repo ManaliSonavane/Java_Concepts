@@ -1,0 +1,19 @@
+//to check if number is prime
+
+public class Prime{
+     public static void main(String args[]){
+        int flag=0; 
+        int i=10;
+           for(int j=2;j<=i-1;j++){
+               if(i%j==0){
+                   flag++;
+               }
+           }
+         if(flag==0){
+           System.out.println("Prime number "+ i);
+         }
+         else{
+            System.out.println("Not Prime number "+ i);
+         }
+   } 
+}
